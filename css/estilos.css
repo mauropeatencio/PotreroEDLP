@@ -1,0 +1,43 @@
+body {
+  background-color: yellow;
+  background-image: url(imagenes/imagendefondo.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1 {
+  color: green;
+  text-decoration: underline;
+  text-align: center;
+  font-size: xxx-large;
+  }
+h2 {
+  color: green;
+  text-decoration: underline;
+}
+h3 {
+  color: #82E0AA;
+  text-decoration: underline;
+}
+img {border-radius: 20px;}
+.imagenlocro {text-align: center;}
+.iframes {text-align: center;}
+.colornaveg {background-color: #82E0AA}
+.navecolor {color: #5D6D7E}
+.iconosredes {
+  background-color: #F7DC6F;
+  text-align: right;
+}
+.mapa {text-align: left;}
+.wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  bottom: 30px;
+  right: 30px;
+  float: right;
+ }
+.contacto {color: red}
+.masrecetas {
+ color: #E91E63;
+ text-align: left;
+}
