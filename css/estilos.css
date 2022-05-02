@@ -1,6 +1,6 @@
 body {
   background-color: yellow;
-  background-image: url(./Imagenes/imagendefondo.png);
+  background-image: url(Imagenes/imagendefondo.png);
   background-size: cover;
   background-attachment: fixed;
 }
