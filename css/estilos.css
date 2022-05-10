@@ -1,6 +1,6 @@
 body {
   background-color: yellow;
-  background-image: url(./Imagenes/imagendefondo.png);
+  background-image: url(Imagenes/imagendefondo.png);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -9,7 +9,7 @@ h1 {
   text-decoration: underline;
   text-align: center;
   font-size: xxx-large;
-  }
+}
 h2 {
   color: green;
   text-decoration: underline;
@@ -18,26 +18,79 @@ h3 {
   color: #82E0AA;
   text-decoration: underline;
 }
-img {border-radius: 20px;}
-.imagenlocro {text-align: center;}
-.iframes {text-align: center;}
-.colornaveg {background-color: #82E0AA}
-.navecolor {color: #5D6D7E}
-.iconosredes {
-  background-color: #F7DC6F;
-  text-align: right;
+img {border-radius: 30px;
+
 }
-.mapa {text-align: left;}
-.wsp {
-  position: fixed;
-  width: 55px;
-  height: 55px;
-  bottom: 30px;
-  right: 30px;
-  float: right;
- }
-.contacto {color: red}
-.masrecetas {
- color: #E91E63;
- text-align: left;
+
+img:hover {
+  background: url("../Imagenes/locro_hover.jpg") no-repeat;
+  font-size: 60px;
 }
+.iframes {text-align: center;
+  clear: both;}
+  .colornaveg {background-color: #82E0AA}
+  .navecolor {color: #5D6D7E}
+  .iconosredes {
+    background-color: #F7DC6F;
+    text-align: center;
+  }
+  .mapa {text-align: left;
+  }
+
+  .html { width: 50%;
+    float: left;
+  }
+  formulario { width: 50%;
+    height: 50%;  }
+    aside .foto {width: 50%;
+      float: left;
+    }
+    .wsp {
+      position: fixed;
+      width: 40px;
+      height: 40px;
+      bottom: 30px;
+      right: 30px;
+      float: right;
+      line-height: 40px;
+      bottom: 30px;
+      color: white;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+      z-index: 100;
+
+    }
+    .wsp:hover {
+      text-decoration: none;
+      color: green;
+      background: white;
+
+    }
+    .parrafo {color:#9CCC65;
+      text-decoration: none;}
+      .contacto {color: red}
+      .masrecetas {
+        color: #E91E63;
+        text-align: left;
+      }
+      .Comunicate {
+        color:#7D3C98 ;
+      }
+      header {background-image: url(../Imagenes/imagen_header.png);
+        background-size: cover;
+        background-attachment: fixed;
+      }
+      .recetas :hover {color: green;
+        background-color: pink;
+        font-style: italic;
+      }
+      .linkcontacto:hover {color: orange;
+      }
+      .linkindex:hover {color: orange;
+      }
+      .twitter:hover {
+        width: 10%;
+        height: 10%;
+      }
